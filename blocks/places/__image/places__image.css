@@ -1,0 +1,27 @@
+.places__image {
+    width: 460px;
+    height: 460px;
+    object-fit: cover;
+}
+
+@media (min-width: 981px) and (max-width: 1024px) {
+    .places__image {
+        width: 440px;
+        height: 440px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+    .places__image {
+        width: 340px;
+        height: 340px;
+    }
+}
+
+@media (max-width: 767px) {
+    .places__image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 32px;
+    }
+}
