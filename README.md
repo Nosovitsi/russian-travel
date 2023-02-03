@@ -15,3 +15,6 @@
 * CSS
 * BEM
 
+### Ссылка на опубликованный проект в gh-pages
+
+https://github.com/Nosovitsi/russian-travel
