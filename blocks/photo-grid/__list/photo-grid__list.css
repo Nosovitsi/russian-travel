@@ -1,0 +1,11 @@
+/*** PHOTO GRID LIST ***/
+
+.photo-grid__list {
+  width: 100%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+  list-style: none;
+
+}
