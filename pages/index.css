@@ -16,6 +16,7 @@
 @import url("../blocks/header/__link/_activated/header__link_activated.css");
 
 /*** CONTENT ***/
+@import url("../blocks/content/content.css");
 
 /*** LEAD ***/
 
@@ -24,4 +25,5 @@
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
 @import url("../blocks/lead/__figure/lead__figure.css");
 @import url("../blocks/lead/__image/lead__images.css");
+@import url("../blocks/lead/__caption/lead__caption.css");
 
