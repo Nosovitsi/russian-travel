@@ -1,0 +1,44 @@
+/*** LEAD TITLE ***/
+
+.lead__title {
+  margin: 0 auto;
+  padding: 56px 0 32px 0;
+  display: flex;
+  max-width: 720px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    padding: 48px 0 32px 0;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .lead__title {
+    font-size: 76px;
+    line-height: 84px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .lead__title {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    padding: 48px 0 16px
+  }
+}
