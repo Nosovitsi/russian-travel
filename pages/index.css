@@ -1,7 +1,8 @@
-*** NORMALIZE ***
+/*** NORMALIZE ***/
 @import url("../vendor/normalize.css");
 
-*** FONTS ***
+/*** FONTS ***/
 @import url("../vendor/fonts.css");
 
-***  ***
+/*** PAGE ***/
+@import url("../vendor/pages.css");
