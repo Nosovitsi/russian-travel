@@ -1,1 +1,7 @@
-@import
+*** NORMALIZE ***
+@import url("../vendor/normalize.css");
+
+*** FONTS ***
+@import url("../vendor/fonts.css");
+
+***  ***
