@@ -10,6 +10,8 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  color: #FFFFFF;
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 555px) {
