@@ -13,5 +13,6 @@
     flex-direction: column;
     justify-content: baseline;
     align-items: flex-start;
+    width:100%;
   }
 }
