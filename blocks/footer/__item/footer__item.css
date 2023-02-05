@@ -1,0 +1,9 @@
+/*** FOOTER ITEM ***/
+
+.footer__item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 18px 0 0;
+  text-decoration: none;
+}

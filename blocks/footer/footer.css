@@ -2,8 +2,26 @@
 
 .footer {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1184px;
   width: calc(100% - (2 * 48px));
   margin: 0 auto;
   padding: 92px 0 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100% - 2 * 24px);
+    padding: 88px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    width: calc(100% - 2 * 24px);
+    padding: 64px 0 24px;
+  }
 }

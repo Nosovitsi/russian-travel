@@ -1,1 +1,17 @@
 /*** FOOTER LIST ***/
+
+.footer__list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__list {
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+  }
+}
