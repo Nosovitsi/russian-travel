@@ -11,8 +11,9 @@
   padding: 0;
 }
 
-@media screen and (min-width: 320px)  and (max-width:767px){
+@media screen and (min-width: 320px) and (max-width:767px){
   .footer__item {
     margin: 0 0 32px;
   }
 
+}
