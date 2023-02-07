@@ -1,5 +1,7 @@
 /*** PHOTO GRID ITEM ***/
 
 .photo-grid__item {
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
