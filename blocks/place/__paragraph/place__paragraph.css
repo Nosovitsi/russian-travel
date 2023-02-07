@@ -16,8 +16,8 @@
   .place__paragraph {
     padding: 0 16px;
   }
+    .place__paragraph:last-child {
+      padding: 0 16;
+    }
 }
 
-.place__paragraph:last-child {
-  padding: 0 16;
-}
