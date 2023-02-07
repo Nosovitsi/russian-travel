@@ -22,7 +22,7 @@
 .cover__link::before {
   background: #2A2C2F;
   content: "";
-  opacity: 0.2;
+  opacity: 0.3;
   transition: 1s ease;
   position: absolute;
   top: 0;
