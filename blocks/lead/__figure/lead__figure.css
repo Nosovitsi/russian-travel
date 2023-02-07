@@ -1,6 +1,8 @@
 /*** LEAD FIGURE ***/
 
 .lead__figure {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
 }
